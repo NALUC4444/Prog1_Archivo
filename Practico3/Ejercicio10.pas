@@ -14,28 +14,24 @@ begin
             costo := Precio;
             writeln('Peso - Costo');
             writeln(kilogramo:7:2, costo:7:2);
-            writeln('Entre al caso 1');
         end;
     if (kilogramo > 1.00) and (round(kilogramo) < 3.00) then (*Caso 2*)
         begin
             costo := Precio + Extra;
             writeln('Peso - Costo');
             writeln(kilogramo:7:2, costo:7:2);
-            writeln('Entre al caso 2');
         end;
     if (kilogramo = 3.00) then (*Caso 3*)
         begin
             costo := Precio + (Extra * 2);
             writeln('Peso - Costo');
             writeln(kilogramo:7:2, costo:7:2);
-            writeln('Entre al caso 3');
         end;
     if (kilogramo > 3.00) then (*Caso 4*)
         begin
             costo := Precio + (Extra * round(kilogramo));
             writeln('Peso - Costo');
             writeln(kilogramo:7:2, costo:7:2);
-            writeln('Entre al caso 4');
         end;
     writeln(kilogramo:7:2);
     (*4 casos: 
@@ -44,8 +40,6 @@ begin
     3: kilogramo = 3 => $77 + (56*2)
     4: kilogramo > 1 => $77 + (56 * round(Kilogramo))*)
 end.
-
-(*De todos los casos falla el caso de ingresar 3.00 gramos*)
 
 (*Letra Ejercicio:
 El costo de enviar por correo un paquete es:
