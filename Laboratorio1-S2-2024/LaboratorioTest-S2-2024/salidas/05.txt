@@ -1,0 +1,1 @@
+Ingrese la clave: Ingrese la letra "C" para cifrar o "D" para descifrar: Ingrese el mensaje que desea procesar seguido de un punto ("."): El mensaje cifrado es: Zl wblklu, b$hy j4y4ja3y35 lzwljphslz?.

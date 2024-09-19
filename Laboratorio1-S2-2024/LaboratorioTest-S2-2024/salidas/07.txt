@@ -1,0 +1,1 @@
+Ingrese la clave: Ingrese la letra "C" para cifrar o "D" para descifrar: Ingrese el mensaje que desea procesar seguido de un punto ("."): El mensaje descifrado es: Que PaSa CoN lAs MaYuScUlAs Y mInUsCuLaS.
