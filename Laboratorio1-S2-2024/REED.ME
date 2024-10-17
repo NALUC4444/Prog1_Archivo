@@ -2,9 +2,18 @@ IMPORTANTE
 En el archivo donde estes creando la solucion al Laboratorio, debes llamarlo "tarea1.pas" ya que de esa manera podras ejecutar los casos de prueba con facilidad.
 
 CASOS DE PRUEBA:
-Debes tener siempre presente que tu solucion a los problemas solo debe tener escrito las funciones y procedimientos, nada mas!
-Para ejecutar estos casos de pruebas vas a abrir tu cmd o tu terminal y buscar el archivo que se llama "principal.pas" vas a escribir:
+Primero es importante tener en cuenta que para usar los casos de prueba se necesita tener instalado Python en el sistema operativo, en caso de no tenerlo si usas linux puedes instalarlo desde la consola de comandos, pero si usas Windows buscar en Google "Download Pyton" y descargar la version mas reciente para el sistema operativo
+(Pagina web: https://www.python.org/downloads/)
 
-fpc -Cr -Co -Miso -gl principal.pas
+Alli se encuentra la pestaña "Downloads", donde aparece un menu desplegable con la version para descargarla para tu sistema operativo.
 
-Ya que en el propio principal.pas se encuentra la invocacion a las funciones y procedimientos.
+Una vez instalado escribir en la consola de comandos lo siguiente:
+python
+
+Esto para comprobar que se instalo correctamente, si es que te aparece texto y ">>>>" entonces se instalo correctamente, ahora escribe "exit()" para salir del interprete de Python.
+
+Ahora escribe en la consola (Asegurate de estar en la carpeta donde esta el archivo "test.py", sino navega por la consola hasta encontrarlo), y escribe:
+python test.py
+Para ejecutar el testeo del programa de laboratorio que usaste (Recuerda que el trabajo debe llamarse "tarea1.pas" estrictamente)
+
+
